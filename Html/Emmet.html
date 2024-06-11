@@ -1,0 +1,85 @@
+<!--
+EMMET İLE KISA YLLAR
+etiket isimlerini direkt verebilitoruz
++ Kardeş elementi
+> içinde öge
+^ yukarı çık ve öge oluştur
+* carp -> p*3
+lorem ???
+* -> calss
+# -> id
+-->
+------------------------------
+<h1>Kardeş Element(h1+h2)</h1>
+
+<h1></h1>
+<h2></h2>
+-----------------------------
+<h1>çarp(h1*3)</h1>
+<h1></h1>
+<h1></h1>
+<h1></h1>
+--------------------
+<h1>İçinde Özelliği(h1>p)</h1>
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+-----------------------
+<h1>Yukarı Çıkma Özelliği(ul>li*3^p)</h1>
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+<p></p>
+-----------------------------------
+<h1>Lorem Kullanımı(Anlamsız yazılar(p>lorem veya p>lorem5))</h1>
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam tempora quasi
+  perspiciatis consequatur. Quia numquam obcaecati quasi iusto provident amet!
+  Repudiandae ea modi, consequuntur velit at tempora earum eum ex!
+</p>
+<p>Lorem ipsum dolor sit amet.</p>
+-----------------------
+<h1>id kullanımı</h1>
+<ul id="id1">
+  <li id="id2"></li>
+</ul>
+<li id="id3"></li>
+---------------------------------
+<h1>ul>li*3>lorem1^^p*2>lorem4^h3>lorem1</h1>
+<ul>
+  <li>Lorem.</li>
+  <li>Impedit!</li>
+  <li>Numquam!</li>
+</ul>
+<p>Lorem ipsum dolor sit.</p>
+<p>Eaque dolore pariatur explicabo.</p>
+<h3>Lorem.</h3>
+------------------------------------
+<h1>class kullanımı(ul.class)</h1>
+<ul class="class"></ul>
+<h3 class="deneme" id="idolussun">Lorem.</h3>
+<h3 id="felan" class="felan"></h3>
+---------------------------------
+<h1>farklı idlere sahip 3 adet li tagı</h1>
+<ul>
+  <li id="id1"></li>
+  <li id="id2"></li>
+  <li id="id3"></li>
+</ul>
+<ul>
+  <li>
+    <div class="tepki" id="id1"></div>
+  </li>
+  <li>
+    <div class="tepki" id="id2"></div>
+  </li>
+  <li>
+    <div class="tepki" id="id3"></div>
+  </li>
+</ul>
