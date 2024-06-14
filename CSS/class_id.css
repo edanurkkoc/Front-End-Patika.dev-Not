@@ -1,0 +1,27 @@
+.text-red{
+    color: blueviolet;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-medium{
+    font-size:medium
+}
+.fs-medium{
+    font-size:20px;
+}
+.fs-20{
+    font-size: 20px;
+    background-color: chocolate;
+}
+#mesela{
+    font-style: italic;
+}
+/* Birden fazla kelime varsa - kullanılır */
+#son-h1{
+    color: cadetblue;
+}
+/* Birden fazla etiketi seçebiliriz*/
+h1,h2{
+    color: crimson;
+}
