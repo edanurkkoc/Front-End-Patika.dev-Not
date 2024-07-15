@@ -1,0 +1,77 @@
+.header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.nav {
+  display: block;
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: center;
+  background-color: rgb(238, 231, 231);
+}
+.nav form input {
+  display: block;
+  width: 400px;
+  margin-left: 400px;
+}
+.main .kutu {
+  width: 400px;
+  height: 100px;
+
+  margin: 1px;
+}
+.main {
+  margin-top: 2px;
+  margin-left: 80px;
+}
+#birinci {
+  float: left;
+  background-color: aquamarine;
+}
+#ikinci {
+  float: left;
+  background-color: rgb(130, 231, 198);
+}
+#ucuncu {
+  float: left;
+  background-color: rgb(139, 209, 214);
+}
+#ikinci a {
+  margin-left: 110px;
+}
+#ikinci .help {
+  margin-left: 140px;
+}
+.main .kutu .p {
+  text-align: center;
+  margin-top: 4px;
+}
+.main .kutu .p .a {
+  margin-top: 0px;
+  margin-left: 150px;
+  padding-top: 0%;
+}
+#ucuncu p {
+  margin-left: 150px;
+  margin-top: 0px;
+}
+#ucuncu button {
+  margin-left: 150px;
+}
+#ucuncu p {
+  display: block;
+  margin-top: 0px;
+  margin-left: 90px;
+}
+.main #ucuncu .form3 {
+  margin-left: 80px;
+}
+.main #ucuncu button {
+  margin-left: 100px;
+}
+.son h4 {
+  display: block;
+  text-align: center;
+}

@@ -1,0 +1,40 @@
+
+
+/*İki class ismi de aynı etikette olmalı*/
+.color-blue.fw-bold{
+    color:blue;
+    font-weight: bold;
+
+
+}
+/*ilk classs ikinci class isminin çinde olmalı*/
+.color-blue .fw-bold{
+    color:blue;
+    font-weight: bold;
+
+}
+li:first-child{
+    color: green;
+
+}
+
+li:last-child{
+    color:aqua;
+}
+
+/*içindeki barındırdığı elemanlardan kaçıncısına css,virgül ile yazılmaz(1,2,3) vs gibi*/
+li:nth-child(1){
+    color: red;
+}
+/* 1,3,5*/
+li:nth-child(odd){
+    color: blue;
+}
+/* 2,4,6*/
+li:nth-child(even){
+    color:brown;
+}
+/* 1,3,5*/
+li:nth-child(2n-1){
+    background-color: black;
+}
