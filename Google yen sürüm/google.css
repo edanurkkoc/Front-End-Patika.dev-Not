@@ -1,0 +1,112 @@
+.header a {
+  text-decoration: none;
+}
+.header .app img {
+  width: 1.5%;
+  margin-left: 10px;
+}
+.header .about {
+  margin-left: 20px;
+  color: black;
+}
+.header .store {
+  margin-left: 25px;
+  color: black;
+}
+.header .mail {
+  padding-left: 70%;
+  color: black;
+}
+.header .img {
+  margin-left: 15px;
+  color: black;
+}
+.header .btn {
+  margin-left: 15px;
+  width: 5%;
+  height: 30px;
+  border: 0;
+  background-color: rgb(109, 172, 231);
+}
+.header .btn p {
+  margin-left: 5px;
+  margin-top: 5px;
+  color: aliceblue;
+}
+.nav .div {
+  width: 500px;
+  height: 25px;
+  border: solid 1px rgb(230, 220, 206);
+  margin-left: 400px;
+  background-color: rgb(239, 241, 241);
+  padding: 10px;
+  line-height: 180px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgb(243, 230, 230);
+  margin-top: 2px;
+}
+.nav .logo {
+  margin-left: 550px;
+  margin-top: 100px;
+}
+.nav .div1 .voice {
+  width: 5%;
+  height: 20px;
+  border: none;
+  background-color: rgb(239, 241, 241);
+  padding: 10px;
+  line-height: 180px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgb(243, 230, 230);
+  padding: 5px;
+  margin-top: 1px;
+  margin-left: 100px;
+  margin-right: 50px;
+  margin-bottom: 150px;
+  padding: 0px;
+}
+.nav .div1 .voice1 {
+  width: 5%;
+  height: 20px;
+  border: none;
+  background-color: rgb(239, 241, 241);
+  padding: 10px;
+  line-height: 180px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgb(243, 230, 230);
+  padding: 5px;
+  margin-top: 1px;
+  margin-left: 210px;
+  margin-right: 85px;
+  margin-bottom: 150px;
+  padding: 0px;
+}
+.butonlar .btnn1 {
+  margin-top: 10px;
+  margin-left: 550px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 1rem;
+  background: #efefef;
+  font-size: 19px;
+}
+.footer .col .bir {
+  margin-left: 20px;
+}
+.footer .col .iki {
+  margin-left: 50px;
+}
+.footer .col .uc {
+  margin-left: 70px;
+}
+.footer .col .dort {
+  margin-right: 70px;
+  margin-left: 500px;
+}
