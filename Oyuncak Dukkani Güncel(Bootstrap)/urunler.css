@@ -1,0 +1,68 @@
+.container img{
+    width: 250px;
+    height: 250px;
+}
+.container .card {
+    margin: 25px;
+}
+.card .p{
+    color: blueviolet;
+    font-size:medium;
+    font-weight: 700;
+    width: 200px;
+}
+button{
+    bottom: unset;
+    border-radius: 10px;
+    background-color: rgb(227, 195, 195);
+}
+.container{
+    
+    margin-top: 1em;
+}
+/*NAVBAR*/
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    background-color: rgb(83, 85, 83);
+    padding: 1rem 1.5rem;
+    top:0;
+    left:0;
+    right:0;
+    margin:0;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.baslik{
+    margin-left: 3rem;
+}
+.link:hover{
+color: rgb(141, 214, 192);
+}
+.link{
+    color: rgb(245, 254, 251);
+    text-decoration: none;
+    margin-right: 1px;
+}
+.anasayfa h1,p,li{
+ 
+    text-align: center;
+   
+}
+.anasayfa .buton{
+    margin-left: 45rem;
+
+}
+.anasayfa h1{
+    font-size:x-large;
+}

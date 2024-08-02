@@ -1,0 +1,55 @@
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    background-color: rgb(83, 85, 83);
+    padding: 1rem 1.5rem;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    margin:0;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.baslik{
+    margin-left: 3rem;
+}
+.link:hover{
+color: rgb(141, 214, 192);
+}
+.link{
+    color: rgb(245, 254, 251);
+    text-decoration: none;
+    margin-right: 1px;
+}
+.anasayfa1 h1,p{
+ 
+    text-align: center;
+   
+}
+.anasayfa2 .buton{
+    margin-left: 45rem;
+
+}
+.anasayfa1 h1{
+    font-size:x-large;
+}
+
+/**/
+.anasayfa1{
+    margin-top: 8em;
+}
+.anasayfa2 li{
+    text-align: center;
+
+}
